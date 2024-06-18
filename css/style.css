@@ -6,20 +6,7 @@
     background-color: #e5e5e5;
 }
 
-main {
-    display: flex;
-    width: 100vw;
-    height: 100vh;
-}
 
-.main {
-    width: 100vw;
-    height: 100%;
-}
-
-.container-sidebar {
-    height: 100%;
-}
 
 .content {
     border: 1px solid white;
@@ -33,8 +20,34 @@ main {
 
 }
 
-.position-relative i {
+.container-fluid.position-relative i {
     position: absolute;
     left: 30px;
     bottom: 10px;
+}
+
+/* .sidebar {
+    height: 100%;
+    width: 120px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-image: url(../img/sidebar-bg.png);
+    background-color: #051e34;
+}
+
+
+.sidebar a {
+    padding: 8px 16px 6px 24px;
+    text-decoration: none;
+    color: #ffffff;
+    display: block;
+}
+
+
+
+/* Style the main content */
+.main {
+    margin-left: 120px;
+
 }
