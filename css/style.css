@@ -1,4 +1,4 @@
-.navbar.navbar-expand-sm.bg-white {
+.navbar.navbar-expand-lg.bg-white {
     flex-wrap: nowrap;
 }
 
@@ -25,4 +25,16 @@ main {
     border: 1px solid white;
     height: 300px;
     background-color: red;
+}
+
+.navbar-brand img {
+    width: 50px;
+    display: inline;
+
+}
+
+.position-relative i {
+    position: absolute;
+    left: 30px;
+    bottom: 10px;
 }
