@@ -40,7 +40,6 @@ main {
 
 .top-sidebar {
     height: 90vh;
-    overflow-y: hidden;
 }
 
 .bottom-sidebar {
