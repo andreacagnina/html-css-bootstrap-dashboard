@@ -11,6 +11,9 @@ main {
     display: flex;
 }
 
+header {
+    height: 108px;
+}
 
 
 /* sidebar */
@@ -24,9 +27,19 @@ main {
     padding: 10px 0;
 }
 
+.sidebar-sticky {
+    position: sticky;
+    top: 0px;
+
+}
+
+.top-sidebar {
+    height: 50vh;
+}
+
 
 .full-section {
-    width: calc(100vw - 50px);
+    width: calc(100% - 50px);
 }
 
 .sidebar ul li,
@@ -127,14 +140,14 @@ td:nth-child(3) {
     }
 
     .full-section {
-        width: calc(100vw - 100px);
+        width: calc(100% - 100px);
     }
 
 }
 
 @media screen and (min-width: 992px) {
     .full-section {
-        width: calc(100vw - 150px);
+        width: calc(100% - 150px);
     }
 
     .sidebar {
