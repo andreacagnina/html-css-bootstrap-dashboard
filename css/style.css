@@ -68,6 +68,15 @@ main {
 a:visited,
 a:active {
     color: white;
+    text-decoration: none;
+}
+
+.sidebar li:hover {
+    background-color: #808f9b;
+}
+
+.sidebar a i {
+    margin-right: 10px;
 }
 
 /* navbar */
@@ -90,10 +99,7 @@ a:active {
 }
 
 /* spaziatura tra icone e descrizione */
-.sidebar a i {
-    margin-right: 10px;
-    text-decoration: none;
-}
+
 
 
 
