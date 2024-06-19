@@ -57,6 +57,12 @@ main {
     padding: 20px 0;
 }
 
+.sidebar a,
+a:visited,
+a:active {
+    color: white;
+}
+
 /* navbar */
 
 .navbar-brand img {
@@ -82,11 +88,7 @@ main {
     text-decoration: none;
 }
 
-a,
-a:visited,
-a:active {
-    color: white;
-}
+
 
 /* card */
 
@@ -94,14 +96,16 @@ a:active {
     padding: 20px 10px;
 }
 
+.bottom-section,
+.accordion button {
+    font-weight: bold;
+}
+
 td img {
     width: 25px;
     vertical-align: bottom;
 }
 
-td {
-    font-weight: bold;
-}
 
 td:nth-child(2) {
     display: none
