@@ -11,6 +11,13 @@ main {
     display: flex;
 }
 
+.full-section {
+    height: 100vh;
+}
+
+
+
+
 /* sidebar */
 
 .sidebar {
@@ -27,7 +34,7 @@ main {
     width: 150px;
 }
 
-.main {
+.top-section {
     width: calc(100vw - 50px);
 }
 
@@ -131,7 +138,7 @@ td:nth-child(3) {
 }
 
 @media screen and (min-width: 992px) {
-    .main {
+    .full-section {
         width: calc(100vw - 150px);
     }
 
