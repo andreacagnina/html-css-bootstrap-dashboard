@@ -63,8 +63,8 @@ header {
 }
 
 .sidebar a,
-a:visited,
-a:active {
+.sidebar a:visited,
+.sidebar a:active {
     color: white;
     text-decoration: none;
 }
