@@ -34,12 +34,11 @@ header {
 .sidebar-sticky {
     position: sticky;
     top: 108px;
-    height: 100%;
 }
 
 .top-sidebar {
     margin-top: 7px;
-    height: 90%;
+    height: 80vh;
 }
 
 
